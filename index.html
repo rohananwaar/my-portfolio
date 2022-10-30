@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Drifter Stars</title>
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+
+    <div class="container" id="home">
+    <div class="home">
+        <!-- START HOME Section  -->
+        <!-- partial:index.partial.html -->
+      <canvas id="stars" width="300" height="300"></canvas>
+      <!-- partial -->
+      <div class="home-flex">
+        <h1>HELLO !</h1>
+        <h1>I'm <span class="auto-type"></span></h1> <!-- auto type -->
+        <!-- ABOUT ME button  -->
+        <div class="aboutbtn">
+          <div class="link_aboutbtn">
+            <a href="#about">ABOUT ME!</a>
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+              </svg>
+            </div>
+          </div>
+          
+        </div>
+        <!-- <button href="#" class="home-about-us-btn">About ME</button> -->
+      </div>
+    </div>
+    <!-- END HOME Section  -->
+    
+    <!-- START nav Section  -->
+    <header class="header">
+      <!-- <img src="" alt="" class="logo"> -->
+      <div class="navbar " id="navbar">
+        <ul class="nav-link nav-menu" >  <!-- hamburger memu nav-menu -->
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#project">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <!-- hamburger menu -->
+        <div class="hamburger">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+      </div>
+      </div>
+    </header>
+    <!-- END nav Section  -->
+    
+    <!-- Start About Section -->
+    <div class="about" id="about">
+      <section class="about-container">
+        <h1 class="about-h1">ABOUT</h1>
+        <div class="overview">
+          <ul>
+            <li>
+              <img src="./img/fast.png" alt="">
+              <h5>Brilliance</h5>
+              <p>
+                Diligent, committed to excellence, believer in balance and looking for the next opportunity.
+              </p>
+            </li>
+            <li>
+              <img src="./img/creativity.png" alt="">
+              <h5>Creative</h5>
+              <p>
+                Specializing in making things by hand and seeing patterns.
+              </p>
+            </li>
+            <li>
+              <img src="./img/learning.png" alt="">
+              <h5>Quick Learner</h5>
+              <p>
+                Considered a "quick learner". I believe in hardwork but ready to learn new things.
+              </p>
+            </li>
+            <li>
+              <img src="./img/struggle.png" alt="">
+              <h5>Self-Motivated</h5>
+              <p>
+                Passionate about this work and always looking for new innovative ideas to bring to a project.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="about-me-skill-flex">
+          <div class="about-me">
+            <img class="hex" src="./img/mypicrdit.jpg" alt="NOT Found"/>
+            <h4 class="who-i-am">Who Am I</h4>
+            <p class="who-i-am-para">
+              Hard working, honest individual, good timekeeper, always willing to learn new skills, friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting.
+            </p>
+          </div>
+          
+          <div class="skill">
+
+                <div class="graph">
+                  <h5 class="skill-name">HTML</h5>
+                  <!-- per 80% = 100% -->
+                  <div class="bar" style="width: 64%;" ></div> 
+                  <!-- 80 of 80% = 64% -->
+                    <h5 class="skill-per">80%</h3>
+                    </div>
+                    
+                    <div class="graph">
+                      <h5 class="skill-name" >CSS</h5>
+                      <div class="bar" style="width: 56%;"></div> 
+                      <!-- 70% of 80 = 56% --> 
+                      <h5 class="skill-per">70%</h3>
+                      </div>
+                      
+                      <div class="graph">
+                  <h5 class="skill-name">JS</h5>
+                  <div class="bar" style="width: 20%;"></div> 
+                  <!-- 25% of 80 = 20% -->
+                  <h5 class="skill-per">25%</h3>
+                </div>
+                
+                <div class="graph">
+                  <h5 class="skill-name">PUG</h5>
+                    <div class="bar" style="width: 32%;"></div> 
+                <!-- 40% of 80 = 32% -->
+                  <h5 class="skill-per">40%</h3>
+                  </div>
+                <a href="https://drive.google.com/file/d/1Iua2Fh7jV-mSmifwI4_n9cu9nDaI-Foj/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cv-btn"> Download My CV</a>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
+
+
+    <!-- END About Section -->
+    
+    <!-- START Project Section  -->
+
+
+    <div class="project" id="project">
+      <div class="project-container">
+
+        <h1>PROJECTS</h1>
+        <div class="project-list-flex">
+          <ul class="p-btns">
+            <li class="btn p-btn"  > <a data-btn-num="1">ALL</a> </li>
+            <li class="btn p-btn"  > <a data-btn-num="2">CSS</a> </li>
+            <li class="btn p-btn"  > <a data-btn-num="3">JAVASCRIPT</a> </li>
+
+            <!-- <li class="btn p-btn" data-btn-num="1" > ALL </li>
+            <li class="btn p-btn" data-btn-num="2" > CSS </li>
+            <li class="btn p-btn" data-btn-num="3" > JAVASCRIPT </li> -->
+          </ul>
+        </div>
+
+        <div class="container grid grid-three-column portfolio-images">
+
+          <div class="img-overlay btn p-btn--1 p-btn--2 ">
+          <img src="./img/projects/Abstract-help-page.png" alt="Abstract-help-page">
+          <div class="overlay">
+            <a href="https://abstract-help-page-project.netlify.app/" target="_WEBSITE-name" class="common-heading">Project 1</a>
+          </div>
+          </div>
+          
+
+          <div class="img-overlay btn p-btn--1 p-btn--3">
+          <img src="./img/projects/calculator.png" alt="calculator">
+          <div class="overlay">
+            <a href="https://project-calculator-design.netlify.app/" target="_blank" rel="noopener noreferrer" class="common-heading">Project 2</a>
+          </div>
+          </div>
+
+          <div class="img-overlay btn p-btn--1 p-btn--2">
+          <img src="./img/projects/gym.jpeg" alt="GYM">
+          <div class="overlay">
+            <a href="https://gym-home-page-project.netlify.app/" target="_blank" rel="noopener noreferrer" class="common-heading">Project 3</a>
+          </div>
+          </div>
+
+          <div class="img-overlay btn p-btn--1 p-btn--3">
+          <img src="./img/projects/interactive-rating-component-main.png" alt="interactive-rating-component-main">
+          <div class="overlay">
+            <a href="https://interactive-rating-page-project.netlify.app/" target="_blank" rel="noopener noreferrer" class="common-heading">Project 4</a>
+          </div>
+          </div>
+
+          <div class="img-overlay btn p-btn--1 p-btn--2">
+          <img src="./img/projects/news-homepage-main.jpg" alt="news-homepage-main">
+          <div class="overlay">
+            <a href="https://rohananwaar.github.io/news-homepage-Challenge-by-FrontendMentor/" target="_blank" rel="noopener noreferrer" class="common-heading">Project 5</a>
+          </div>
+          </div>
+
+          <div class="img-overlay btn p-btn--1 p-btn--2 ">
+            <img src="./img/projects/Abstract-help-page.png" alt="Abstract-help-page">
+            <div class="overlay">
+              <a href="https://abstract-help-page-project.netlify.app/" target="_blank" rel="noopener noreferrer" class="common-heading">Project 6</a>
+            </div>
+            </div>
+        </div>
+
+      </div>
+
+  </div>
+  <!-- END Project Section  -->
+  
+  <!-- STRAT Contact Section  -->
+  <div class="contact" id="contact">
+    <div class="contact-container">
+
+      
+      <div class="contact-flex">
+        <h1>CONTACT</h1>
+      </div>
+      <p>Have a question or want to work together?</p>
+      
+      
+      
+      <!-- <link href="contact-form.css" rel="stylesheet"> -->
+      <!-- fcf = form  -->
+      <div class="form-body">
+        
+        <div id="form-form">
+          
+          <!-- <form id="form-form-id" class="form-form-class" method="post" action="contact-form-process.php"> -->
+            
+            <div class="form-form-group">
+              <div class="form-input-group">
+                <input type="text" id="Name" name="Name" class="form-form-control" placeholder="Name" required>
+              </div>
+            </div>
+            
+            <div class="form-form-group">
+              <div class="form-input-group">
+                <input type="email" id="Email" name="Email" class="form-form-control" placeholder="Enter E-mail" required>
+              </div>
+            </div>
+            
+            <div class="form-form-group">
+              <div class="form-input-group">
+                <textarea id="Message" name="Message" class="form-form-control" rows="6" maxlength="3000" placeholder="Your Message" required></textarea>
+              </div>
+        </div>
+        
+        <div class="form-form-group">
+          <button type="submit" id="form-button" class="form-btn form-btn-primary form-btn-lg form-btn-block">SUBMIT</button>
+        </div>
+        
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+<!-- END Contact Section  -->
+
+
+
+
+
+
+<!-- START Footer Section -->
+<footer class="footer">
+  <div class="go-up"></div>
+      <div class="social-media">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/rohan-anwar/" target="_blank" rel="noopener noreferrer"><div class="social-icon-box">
+            <img src="./img/linkedin.png" alt="">
+          </div></a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer"><div class="social-icon-box">
+            <img src="./img/instagram.png" alt="">
+          </div></a></li>
+          <li><a href="https://github.com/rohananwaar/" target="_blank" rel="noopener noreferrer"><div class="social-icon-box">
+            <img src="./img/github.png" alt="">
+          </div></a></li>
+        </ul>
+      </div>
+      <div class="footenote">
+        ROHAN ANWAAR
+        <span class="hightlight"> @2022</span>
+      </div>
+    </footer>   
+    <!-- END Footer Section -->
+</div>
+ 
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="http://requirejs.org/docs/release/2.1.15/minified/require.js"></script>
+<script src="https://rawgit.com/ironwallaby/delaunay/master/delaunay.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./script.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,793 @@
+@media screen  and (min-device-width: 943px) and (max-width: 1227px){
+    .home h1 {
+     font-size: 4.4rem;
+     }
+   
+   .link_aboutbtn a:hover {
+       width: 11vw;
+   }
+       .aboutbtn {
+         top: 65%;
+     }
+     
+     a:hover + .icon {
+       right: 30%;
+     }
+   .icon {
+     width: 4.5vw;
+     height: 5.9vh;
+   }
+   .icon svg {
+     width: 2.1vw;
+   }
+   .about h1 {
+     margin: 1rem;
+     margin-bottom: 2rem;
+     font-size: 2.5rem;
+   }
+   
+   .about h1:after {
+     left: 36%;
+     width: 16.5vw;
+   }
+   .overview ul li h5 {
+     margin: 0.3rem;
+     font-size: 1.15rem;
+   
+   }
+   .overview ul li p {
+     margin: 0rem;
+     font-size: 0.8rem;
+     font-weight: 400;
+   }
+   .overview ul li {
+     margin: 0.5rem;
+   }
+   .about-me-skill-flex {
+     padding: 0px 5px;
+     height: 50vh;
+   }
+   .about-me {
+     width: 50%;
+     padding: 0 1.1rem 0 1rem;
+     margin: 0.5rem 0;
+   }
+   .about-me img {
+     margin: 1rem auto;
+   
+     width: 19vw;
+     height: 20vh;
+   }
+   .graph h5 {
+     font-size: 0.8rem;
+   }
+   
+   .cv-btn {
+     background-color: var(--Orange);
+   
+     font-weight: 600;
+     padding: 1.2rem 1rem;
+     font-size: 1rem;
+     margin: 1rem;
+   }
+   
+   .project h1 {
+     margin: 1rem;
+     margin-bottom: 2rem;
+     font-size: 2.5rem;
+   }
+   .project h1:after {
+     left: 30%;
+     width: 25.5vw;
+     
+   }
+   .project-list-flex ul {
+     margin: 1rem 0;
+   }
+   
+   .project-list-flex ul li {
+     padding: 0.5rem 1rem;
+   }
+   .project-list-flex ul li a {
+     font-size: 1rem;
+   
+   }
+   
+   .grid-three-column.portfolio-images {
+       grid-template-columns: repeat(2, 1fr);
+       margin: 1.5rem 0rem;
+   }
+   
+   .portfolio-images {
+       gap: 1rem;
+   }
+   .img-overlay .overlay {
+     top: 0px;
+   
+   }
+   .img-overlay .common-heading {
+     font-size: 1.5rem;
+   }
+   
+   .contact h1 {
+     margin: 1rem;
+     margin-bottom: 2rem;
+     font-size: 2.5rem;
+   }
+   .contact h1:after {
+     left: 32%;
+     width: 22vw;
+   }
+   .contact p {
+     margin: 3rem;
+     font-size: 1.5rem;
+   }
+   .form-body {
+     max-width: 73%;
+   }
+   .form-btn {
+     padding: 1rem 1.5rem;
+     font-size: 1.1rem;
+   }
+   }
+   
+   /* ----------------------------------------------- */
+   @media screen and (min-width: 575px) and (max-width: 942px){
+     .home h1 {
+       font-size: 3.5rem;
+       }
+   
+       .link_aboutbtn a {
+         width: 25vw;
+       }
+   
+     .link_aboutbtn a:hover {
+        width: 20vw;
+     }
+         .aboutbtn {
+           top: 64%;
+         }
+       
+       a:hover + .icon {
+         right: 30%;
+       }
+     .icon {
+       width: 6.5vw;
+       height: 4.9vh;
+     }
+     .icon svg {
+       width: 3.5vw;
+     }
+     .about h1 {
+       margin: 1rem;
+       margin-bottom: 2rem;
+       font-size: 2.5rem;
+     }
+     
+     .nav-link li {
+       display: inline-block;
+       padding: 0px 1rem;
+     }
+   
+     .about h1:after {
+       left: 27%;
+       width: 26.5vw;
+     }
+     .overview {
+       margin: auto;
+     }
+     .overview ul li h5 {
+       margin: 0.3rem;
+       font-size: 1.15rem;
+     
+     }
+     .overview ul li p {
+       margin: 0rem;
+       font-size: 0.8rem;
+       font-weight: 400;
+     }
+     .overview ul li {
+       margin: 0.5rem 0.3rem;
+   }
+     .about-me-skill-flex {
+       padding: 0px 1px;
+       height: 49vh;
+   }
+     .about-me {
+       padding: 0 0.2rem 0 0.2rem;
+       margin: 0.5rem 0;
+     }
+     .about-me img {
+       margin: 1rem auto;
+     
+       width: 19vw;
+       height: 20vh;
+     }
+     .graph h5 {
+       font-size: 0.8rem;
+     }
+     
+     .cv-btn {
+       background-color: var(--Orange);
+     
+       font-weight: 600;
+       padding: 1.2rem 1rem;
+       font-size: 1rem;
+       margin: 1rem;
+     }
+     
+     .project h1 {
+       margin: 1rem;
+       margin-bottom: 2.1rem;
+       font-size: 2.5rem;
+     }
+     .project h1:after {
+       left: 16%;
+       width: 40.5vw;
+     }
+     .project-list-flex ul {
+       margin: 1rem 0;
+     }
+     
+     .project-list-flex ul li {
+       padding: 0.5rem 1rem;
+     }
+     .project-list-flex ul li a {
+       font-size: 1rem;
+     
+     }
+     
+     .grid-three-column.portfolio-images {
+         grid-template-columns: repeat(2, 1fr);
+         margin: 1rem 0rem;
+     }
+     
+     .portfolio-images {
+         gap: 1rem;
+     }
+     .img-overlay .overlay {
+       top: 0px;
+     
+     }
+     .img-overlay .common-heading {
+       font-size: 1.5rem;
+     }
+     
+     .contact h1 {
+       margin: 1rem;
+       margin-bottom: 2rem;
+       font-size: 2.5rem;
+     }
+     .contact h1:after {
+       left: 22%;
+       width: 34vw;
+     }
+     .contact p {
+       margin: 3rem;
+       font-size: 1.5rem;
+     }
+     .form-body {
+       max-width: 73%;
+     }
+     .form-btn {
+       padding: 1rem 1.5rem;
+       font-size: 1.1rem;
+     }
+     }
+   
+   
+     @media screen and (min-width: 426px) and (max-width: 574px){
+       
+       .home h1 {
+         font-size: 2.5rem;
+         }
+     
+         .link_aboutbtn a {
+           width: 32vw;
+         }
+     
+       .link_aboutbtn a:hover {
+          width: 26vw;
+       }
+           .aboutbtn {
+             top: 60%;
+           }
+         
+         a:hover + .icon {
+           right: 30%;
+         }
+       .icon {
+         width: 9.5vw;
+         height: 5.9vh;
+       }
+       .icon svg {
+         width: 5.5vw;
+       }
+       .about h1 {
+         margin: 1rem;
+         margin-bottom: 2rem;
+         font-size: 2.5rem;
+       }
+   
+       .nav-link li {
+         padding: 0.5rem 3.5rem;
+       }
+   
+       .nav-link {
+         list-style: none;
+         display: flex;
+         flex-direction: column;
+     }
+     
+     header {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+   
+   
+     /* Start hamburger */
+   .nav-menu {
+       position: absolute;
+       left: -100%;
+       top: 46rem;
+       flex-direction: column;
+       background-color: #fff;
+       width: 100%;
+       border-radius: 10px;
+       text-align: center;
+       transition: 0.3s;
+       z-index: 2;
+       /* box-shadow: 0 10px 27px rgb(0 0 0 / 5%); */
+         padding: 2rem 0rem;
+   }
+   .nav-menu.active {
+       left: 0;
+   }
+   .nav-item {
+       margin: 2.5rem 0; 
+   }
+   .hamburger {
+       display: block;
+       cursor: pointer;
+   }
+   
+   .hamburger.active .bar:nth-child(2) {
+       opacity: 0;
+   }
+   .hamburger.active .bar:nth-child(1) {
+       transform: translateY(8px) rotate(45deg);
+   }
+   .hamburger.active .bar:nth-child(3) {
+       transform: translateY(-8px) rotate(-45deg);
+   }
+   /* END hamburger */
+   .about-container{
+     max-width: 80vw;
+     height: 120vh;
+     /* height: auto; */
+   }
+   
+   .about h1 {
+     margin: 0.5rem;
+     margin-bottom: 1rem;
+     font-size: 1.7rem;
+   }
+      .about h1:after {
+         left: 27%;
+         width: 30.5vw;
+       }
+       .overview {
+         margin: auto;
+       }
+       .overview ul{
+         display: grid;
+         grid-template-columns: auto auto;
+       }
+       .overview ul li h5 {
+         margin: 0.3rem;
+         font-size: 1rem;
+       
+       }
+       .overview ul li p {
+         margin: 0rem;
+         font-size: 0.7rem;
+         font-weight: 400;
+       }
+       .overview ul li {
+         margin: 0.5rem 0.3rem;
+     }
+     .overview img {
+       width: 8vw;
+       filter: invert(0);
+   }
+       .about-me-skill-flex {
+         padding: 0px 1px;
+         /* height: 40vh; */
+         flex-direction: column;
+         height: 70vh;
+         align-items: center;
+     }
+     .who-i-am {
+       margin: 0.5rem;
+       font-size: 1.5rem;
+       font-weight: 600;
+       color: var(--Orange);
+   }
+   .who-i-am-para {
+     margin: 0.3125rem;
+     font-size: 0.6rem;
+     font-weight: 400;
+   }
+     .about-me {
+       align-items: center;
+       padding: 0px 0rem 0 0rem;
+       margin: 5px auto 5px auto;
+   }
+   .about-me img {
+       margin: 0.5rem auto;
+       width: 33vw;
+       height: 18vh;
+   }
+   .skill {
+     width: 50%;
+     padding: 0 2px 0 2px;
+     margin-left: 0;
+     /* display: block; */
+     margin-bottom: 2px;
+     margin-top: -20px;
+   }
+   .graph {
+     display: flex;
+     justify-content: space-between;
+     width: 200%;
+     margin-top: 1.2rem;
+     margin-bottom: 0rem;
+     background-color: #d1d1d1;
+   }
+   .graph h5 {
+         font-size: 0.8rem;
+       }
+       
+       .cv-btn {
+         background-color: var(--Orange);
+         font-weight: 600;
+         padding: 1rem 1.5rem;
+         font-size: 0.8rem;
+         margin-right: -7.5rem;
+       }
+       .project-container{
+           max-width: 90vw;
+           height: 85vh;
+           /* height: auto; */ 
+       }
+       .project h1 {
+         margin: 0.5rem;
+         margin-bottom: 1rem;
+         font-size: 1.7rem;
+       }
+       .project h1:after {
+         left: 24%;
+         width: 39.5vw;
+         bottom: -0.3rem;
+       }
+       .project-list-flex ul {
+         margin: 0.5rem 0;
+     }
+       .project-list-flex ul li {
+         padding: 0.5rem 1rem;
+       }
+       .project-list-flex ul li a {
+         font-size: 0.9rem;   
+       }
+       .grid-three-column.portfolio-images {
+           grid-template-columns: repeat(2, 1fr);
+           margin: 1rem 0rem;
+       }
+       .portfolio-images img {
+         height: 18vh;
+     }
+       .portfolio-images {
+           gap: 1rem;
+       }
+       .img-overlay .overlay {
+         top: 0px;
+       }
+       .img-overlay .common-heading {
+         font-size: 1.5rem;
+       }
+       
+       .contact-container{
+         max-width: 80vw;
+         height: 85vh;
+       }
+       .contact h1 {
+         margin: 0.5rem;
+         margin-bottom: 1rem;
+         font-size: 1.7rem;
+       }
+       .contact h1:after {
+         left: 22%;
+         width: 37.5vw;
+         bottom: -0.3rem;
+       }
+       .contact p {
+         margin: 1.5rem;
+         font-size: 1rem;
+     }
+       .form-body {
+         max-width: 73%;
+       }
+       .form-btn {
+         padding: 1rem 1.5rem;
+         font-size: 1.1rem;
+       }
+     }
+   
+   
+     @media screen and (max-width: 425px){
+       body{
+         overflow-x: hidden;
+       }
+       .home h1 {
+         font-size: 2rem;
+         }
+     
+         .link_aboutbtn a {
+           width: 38vw;
+           font-size: 1rem;
+           border: 0.20rem solid #ffffff66;
+         }
+     
+       .link_aboutbtn a:hover {
+          width: 33vw;
+       }
+           .aboutbtn {
+             top: 60%;
+           }
+         
+         a:hover + .icon {
+           right: 35%;
+         }
+       .icon {
+         width: 11.5vw;
+         height: 5.9vh;
+     }
+       .icon svg {
+         width: 7.5vw;
+       }
+       .about h1 {
+         margin: 1rem;
+         margin-bottom: 2rem;
+         font-size: 2.5rem;
+       }
+   
+       .nav-link li {
+         padding: 0.5rem 3.5rem;
+       }
+   
+       .nav-link {
+         list-style: none;
+         display: flex;
+         flex-direction: column;
+     }
+     
+     header {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+   
+   
+     /* Start hamburger */
+   .nav-menu {
+       position: absolute;
+       left: -100%;
+       top: 50rem;
+       flex-direction: column;
+       background-color: #fff;
+       width: 100%;
+       border-radius: 10px;
+       text-align: center;
+       transition: 0.3s;
+       z-index: 2;
+       /* box-shadow: 0 10px 27px rgb(0 0 0 / 5%); */
+         padding: 2rem 0rem;
+   }
+   .nav-menu.active {
+       left: 0;
+   }
+   .nav-item {
+       margin: 2.5rem 0; 
+   }
+   .hamburger {
+       display: block;
+       cursor: pointer;
+   }
+   
+   .hamburger.active .bar:nth-child(2) {
+       opacity: 0;
+   }
+   .hamburger.active .bar:nth-child(1) {
+       transform: translateY(8px) rotate(45deg);
+   }
+   .hamburger.active .bar:nth-child(3) {
+       transform: translateY(-8px) rotate(-45deg);
+   }
+   /* END hamburger */
+   .about-container{
+     max-width: 80vw;
+     height: 810px;
+     /* height: auto; */
+   }
+   
+   .about h1 {
+     margin: 0rem;
+     margin-bottom: 1rem;
+     font-size: 1.4rem;
+   }
+      .about h1:after {
+         left: 27%;
+         width: 30.5vw;
+       }
+       .overview {
+         margin: auto;
+       }
+       .overview ul{
+         display: flex;
+         flex-direction: column;
+       }
+       .overview ul li h5 {
+         margin: 0.3rem;
+         font-size: 0.8rem;
+       
+       }
+       .overview ul li p {
+         margin: 0rem;
+         font-size: 0.5rem;
+         font-weight: 400;
+       }
+       .overview ul li {
+         margin: 0.5rem 0.3rem;
+     }
+     .overview img {
+       width: 8vw;
+       filter: invert(0);
+   }
+       .about-me-skill-flex {
+         padding: 0px 1px;
+         /* height: 40vh; */
+         flex-direction: column;
+         height: 390px;
+         align-items: center;
+     }
+     .who-i-am {
+       margin: 0.5rem;
+       font-size: 1rem;
+       font-weight: 600;
+       color: var(--Orange);
+   }
+   .who-i-am-para {
+     margin-left: -55px;
+     margin-right: -55px;
+     font-size: 0.5rem;
+     margin-bottom: 10px;
+     text-align: center;
+     font-weight: 400;
+   }
+     .about-me {
+       align-items: center;
+       padding: 0px 0rem 0 0rem;
+       margin: 5px auto 5px auto;
+   }
+   .about-me img {
+     margin: 0.5rem auto;
+     width: 109px;
+     height: 136px;
+   }
+   .skill {
+     width: 50%;
+     padding: 0 2px 0 2px;
+     margin-left: 0;
+     /* display: block; */
+     margin-bottom: 2px;
+     margin-top: -20px;
+   }
+   .graph {
+     display: flex;
+     justify-content: space-between;
+     width: 200%;
+     margin-top: 1.2rem;
+     margin-bottom: 0rem;
+     background-color: #d1d1d1;
+   }
+   .graph h5 {
+         font-size: 0.5rem;
+       }
+       
+       .cv-btn {
+         background-color: var(--Orange);
+         font-weight: 600;
+         padding: 0.8rem 1rem;
+         font-size: 0.6rem;
+         margin-right: -7.5rem;
+     }
+     .project-container{
+       max-width: 80vw;
+       max-height: 810px;
+       height: auto;
+     }
+     
+     .project h1 {
+       margin: 0rem;
+       margin-bottom: 1rem;
+       font-size: 1.4rem;
+     }
+       .project h1:after {
+         left: 18%;
+         width: 44.5vw;
+         bottom: -0.3rem;
+       }
+       .project-list-flex ul {
+         margin: 0.5rem 0;
+     }
+       .project-list-flex ul li {
+         padding: 0.5rem 0.5rem;
+       }
+       .project-list-flex ul li a {
+         font-size: 0.5rem;   
+       }
+       .grid-three-column.portfolio-images {
+         grid-template-columns: repeat(1, 1fr);
+           margin: 0.5rem 0rem;
+       }
+       .portfolio-images img {
+         height: 97px;
+     }
+       .portfolio-images {
+           gap: 1rem;
+       }
+       .img-overlay .overlay {
+         top: 0px;
+       }
+       .img-overlay .common-heading {
+         font-size: 1.5rem;
+       }
+       
+       .contact-container {
+        max-width: 80vw;
+        height: 600px;
+        max-height: auto;
+       }
+       
+       .contact h1 {
+         margin: 0rem;
+         margin-bottom: 1rem;
+         font-size: 1.4rem;
+       }
+       .contact h1:after {
+         left: 20%;
+         width: 40vw;
+         bottom: -0.3rem;
+       }
+       .contact p {
+        margin: 2.5rem;
+        font-size: 1rem;
+     }
+   
+     #form-form {
+       display: block;
+       margin-left: -25px;
+       margin-right: -25px;
+   }
+       .form-body {
+         max-width: 73%;
+       }
+       .form-btn {
+         padding: 1rem 1.5rem;
+         font-size: 1.1rem;
+       }
+       .social-media ul li {
+        padding: 0.5rem 2rem;
+    }
+     }

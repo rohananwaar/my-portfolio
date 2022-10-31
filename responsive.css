@@ -742,6 +742,7 @@
            margin: 0.5rem 0rem;
        }
        .portfolio-images img {
+         width: 75%;
          height: 97px;
      }
        .portfolio-images {

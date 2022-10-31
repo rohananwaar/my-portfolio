@@ -617,8 +617,8 @@
    /* END hamburger */
    .about-container{
      max-width: 80vw;
-     height: 810px;
-     /* height: auto; */
+     height: 825px;
+     height: auto;
    }
    
    .about h1 {

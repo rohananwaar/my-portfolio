@@ -627,8 +627,8 @@
      font-size: 1.4rem;
    }
       .about h1:after {
-         left: 27%;
-         width: 30.5vw;
+    left: 33%;
+    width: 24.5vw;
        }
        .overview {
          margin: auto;
@@ -724,8 +724,8 @@
        font-size: 1.4rem;
      }
        .project h1:after {
-         left: 18%;
-         width: 44.5vw;
+         left: 25%;
+           width: 35.5vw;
          bottom: -0.3rem;
        }
        .project-list-flex ul {
@@ -766,8 +766,8 @@
          font-size: 1.4rem;
        }
        .contact h1:after {
-         left: 20%;
-         width: 40vw;
+            left: 28%;
+             width: 32vw;
          bottom: -0.3rem;
        }
        .contact p {

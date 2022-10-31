@@ -126,6 +126,23 @@ backface-visibility: hidden;
   animation: moveInRight 1s ease-out;
   backface-visibility: hidden;
 }
+.project-list-flex{
+  animation: moveInRight 1s ease-out;
+  backface-visibility: hidden;
+}
+
+.grid-three-column.portfolio-images{
+  animation: moveInLeft 1s ease-out;
+  backface-visibility: hidden; 
+}
+.contact p{
+  animation: moveInRight 1s ease-out;
+  backface-visibility: hidden;
+}
+#form-form{
+  animation: moveInLeft 1s ease-out;
+  backface-visibility: hidden; 
+}
 /* End Animation */
 
 

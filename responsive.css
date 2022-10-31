@@ -749,7 +749,9 @@
            gap: 1rem;
        }
        .img-overlay .overlay {
-         top: 0px;
+             left: 35px;
+             width: 227px;
+             top: 0px;
        }
        .img-overlay .common-heading {
          font-size: 1.5rem;

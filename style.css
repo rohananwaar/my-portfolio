@@ -64,6 +64,8 @@ html{
   background-color: #a8bbbf;
 }
 
+
+
 /* start Animation */
 @keyframes moveInLeft {
   0% {
@@ -81,6 +83,20 @@ html{
   }
 }
 
+@keyframes moveInRight {  
+  0% {    
+    opacity: 0;   
+    transform: translateX(10rem);  
+  }  
+  80% {    
+    transform: translateX(-1rem);  
+  }  
+  100% {    
+    opacity: 1;    
+    transform: translate(0);  
+   }
+}
+
 .about h1{
 animation: moveInLeft 1s ease-out;
 backface-visibility: hidden;
@@ -93,7 +109,26 @@ backface-visibility: hidden;
 animation: moveInLeft 1s ease-out;
 backface-visibility: hidden;
 }
-/* END Animation */
+
+.overview-aniToLeft{
+  animation: moveInLeft 1s ease-out;
+backface-visibility: hidden;
+}
+.overview-aniToRight{
+  animation: moveInRight 1s ease-out;
+  backface-visibility: hidden;
+}
+.about-me{
+  animation: moveInLeft 1s ease-out;
+  backface-visibility: hidden; 
+}
+.skill{
+  animation: moveInRight 1s ease-out;
+  backface-visibility: hidden;
+}
+/* End Animation */
+
+
 /* START Home section */
 .home {
   background-color: #31102F;
